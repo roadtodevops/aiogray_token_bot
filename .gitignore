@@ -1,4 +1,5 @@
 /venv
 .gitignore
-.env
+config/.env
 .idea
+__pycache__
