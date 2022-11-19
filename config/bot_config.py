@@ -1,6 +1,7 @@
 import logging
 from aiogram import Bot, Dispatcher, executor, types
 from dotenv import dotenv_values
+from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
 #Получение токена
 config = dotenv_values("config/.env")
