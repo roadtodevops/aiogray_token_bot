@@ -13,4 +13,4 @@ logging.basicConfig(level=logging.DEBUG)
 
 #Запуск бота и диспатчера
 bot = Bot(token=API_TOKEN)
-dp = Dispatcher(bot)
+dp = Dispatcher(bot, storage=MemoryStorage())
